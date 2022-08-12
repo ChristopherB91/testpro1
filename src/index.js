@@ -3,15 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { createTheme,  } from '@mui/material';
 import { ThemeProvider } from '@mui/system';
+import { createTheme } from '@mui/material';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#CCC"
+      main: "#008080",
+    },
+    secondary: {
+      main: "#008",
     }
   }
 })
