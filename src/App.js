@@ -19,7 +19,7 @@ function App() {
         <Route path='Moves' element={<Moves />}/>
         <Route path='About' element={<About />}/>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
