@@ -8,14 +8,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Nav label0="home" label1="moves" label2="about" />
-
-        <img src={logo} alt="Shinobi logo" />
-
-        <p1 className="body">Welcome to Shinobi Counter</p1>
-        <p2 className="body">
-          Where you can learn how to counter abilities in Shinob Striker
-        </p2>
       </header>
+      <footer className="App-footer">
+      <span>copyright @Chris</span>
+      </footer>
     </div>
   );
 }
