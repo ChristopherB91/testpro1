@@ -23,7 +23,7 @@ function Moves() {
           <th>Image of Breakers</th>
         </tr>
         <tr>
-          <td>susanoo armor</td>
+          <td>Susanoo armor</td>
           <td>Cooling Breeze ninja tool, Hazan Strike, Uchiha Style halo dance</td>
           <td>Male</td>
         </tr>
