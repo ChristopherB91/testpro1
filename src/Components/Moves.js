@@ -1,21 +1,11 @@
 import React from 'react'
 
 
-// const rows = GridRowsProp = [
-//     { id: 1, Move: 'susanoo armor', Breaker: 'Cooling Breeze ninja tool, Hazan Strike, Uchiha Style halo dance', Images: '' },
-//     { id: 2, Move: 'Truth Seeker Orbs', Breaker: 'Onyx Chidori, Toad Oil Bombs, Sage Art Rasenshuriken', Images: '' },
-//     { id: 3, Move: 'Time Space Hop', Breaker: 'Kamui Lightning Blade, Inferno Style: Flame Lightning, Youthful Roar', Images: '' }
-// ]
-
-// const columns = GridColDef = [
-//     { field: 'Move', headerName: 'Moves', width: 150},
-//     { field: 'Breaker', headerName: 'Breaker(s)', width: 150},
-//     { field: 'Images', headerName: 'Picture(s)', width: 150}
-// ]
-
 function Moves() {
     return (
         <div className='App-moves'>
+            <p1>Here are some skills that are commonly used and many struggle with.</p1>
+            <p1>You will also be able to find counters to these abilities and if your are not familiar with the names there should be images right next to them.</p1>     
         <table className='Moves-Table'>
         <tr>
           <th>Move</th>
@@ -23,7 +13,7 @@ function Moves() {
           <th>Image of Breakers</th>
         </tr>
         <tr>
-          <td>Susanoo armor</td>
+          <td>Susanoo Armor</td>
           <td>Cooling Breeze ninja tool, Hazan Strike, Uchiha Style halo dance</td>
           <td>Male</td>
         </tr>
@@ -31,6 +21,26 @@ function Moves() {
           <td>Truth Seeker Orbs</td>
           <td>Onyx Chidori, Toad Oil Bombs, Sage Art Rasenshuriken</td>
           <td>Female</td>
+        </tr>
+        <tr>
+          <td>Time Space Hop</td>
+          <td>Kamui Lightning Blade, Inferno Style: Flame Lightning, Youthful Roar</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Time Space Hop</td>
+          <td>Kamui Lightning Blade, Inferno Style: Flame Lightning, Youthful Roar</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Time Space Hop</td>
+          <td>Kamui Lightning Blade, Inferno Style: Flame Lightning, Youthful Roar</td>
+          <td>Male</td>
+        </tr>
+        <tr>
+          <td>Time Space Hop</td>
+          <td>Kamui Lightning Blade, Inferno Style: Flame Lightning, Youthful Roar</td>
+          <td>Male</td>
         </tr>
         <tr>
           <td>Time Space Hop</td>
