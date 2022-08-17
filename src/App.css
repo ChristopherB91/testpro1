@@ -82,6 +82,9 @@ p1{
 .FC{
   display: flex;
   justify-content: space-evenly;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 #Ghub:hover{
