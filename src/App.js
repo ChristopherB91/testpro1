@@ -1,5 +1,4 @@
 import "./App.css";
-// import Button1 from './Components/button';
 import Nav from "./Components/Navbar.js";
 import Footer from "./Components/Footer";
 import Home from "./Components/Home";
@@ -19,6 +18,7 @@ function App() {
         <Route path='Moves' element={<Moves />}/>
         <Route path='About' element={<About />}/>
       </Routes>
+      
       <Footer />
     </div>
   );

@@ -1,12 +1,13 @@
 import React from 'react'
 import s1 from './Images/ShinobiStriker.png'
 import s2 from './Images/ShinobiStriker2.png'
+// import Wgif from './Images/HomeGif.gif'
 
 function About() {
     return (
       <div className='App-About'>
          <div className='About-img'>
-        <img src={s1} alt="SS1" id='SS1' />
+        <img src={s1} alt="SS1" />
         <img src={s2} alt="SS2" />
         </div>
         <p1>Hello my name is chris created this website because when I play Shinobi Striker I run into so many annoying jutsu and I dont know what breaks them. 

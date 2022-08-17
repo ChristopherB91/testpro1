@@ -5,6 +5,7 @@ function Moves() {
     return (
         <div className='App-moves'>
             <p1>Here are some skills that are commonly used and many struggle with.</p1>
+            <br/>
             <p1>You will also be able to find counters to these abilities and if your are not familiar with the names there should be images right next to them.</p1>     
         <table className='Moves-Table'>
         <tr>
